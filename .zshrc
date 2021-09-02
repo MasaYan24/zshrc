@@ -24,5 +24,4 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
 alias vi='nvim'
-alias vim='nvim'
 alias ls="ls --color"
