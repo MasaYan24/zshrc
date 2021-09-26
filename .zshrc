@@ -5,7 +5,7 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # no beep sound
-set bell-style none
+setopt no_beep
 
 # History
 HISTSIZE=1000
