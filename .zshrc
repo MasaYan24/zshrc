@@ -4,6 +4,9 @@ PATH=~/bin:$PATH
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+# no beep sound
+set bell-style none
+
 # History
 HISTSIZE=1000
 SAVEHIST=1000
