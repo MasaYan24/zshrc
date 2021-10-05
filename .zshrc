@@ -11,6 +11,7 @@ setopt no_beep
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
+setopt hist_ignore_all_dups
 
 # Use modern completion system
 autoload -Uz compinit
