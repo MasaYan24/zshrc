@@ -1,8 +1,8 @@
 # Path
 PATH=~/bin:$PATH
 
-export VISUAL=nvim
-export EDITOR="$VISUAL"
+# export VISUAL=nvim
+# export EDITOR="$VISUAL"
 
 # no beep sound
 setopt no_beep
@@ -27,5 +27,5 @@ eval "$($HOME/miniconda/bin/conda shell.zsh hook)"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Alias
-alias vi='nvim'
+# alias vi='nvim'
 alias ls="ls --color"
