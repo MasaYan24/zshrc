@@ -21,7 +21,7 @@ compinit
 eval "$(starship init zsh)"
 
 # miniconda hook
-eval "$($HOME/miniconda/bin/conda shell.zsh hook)"
+eval "$($HOME/.miniconda/bin/conda shell.zsh hook)"
 
 # zsh-autosuggestions hook
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
