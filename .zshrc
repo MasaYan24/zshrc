@@ -17,6 +17,10 @@ setopt hist_ignore_all_dups
 autoload -Uz compinit
 compinit
 
+
+# linuxbrew hook
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # starship hook
 eval "$(starship init zsh)"
 
