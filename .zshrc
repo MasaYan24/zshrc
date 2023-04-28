@@ -27,6 +27,9 @@ eval "$(starship init zsh)"
 # miniconda hook
 eval "$($HOME/.miniconda/bin/conda shell.zsh hook)"
 
+# direnv hook
+eval "$(direnv hook bash)"
+
 # zsh-autosuggestions hook
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
