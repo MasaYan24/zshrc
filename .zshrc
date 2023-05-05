@@ -30,6 +30,9 @@ eval "$($HOME/.miniconda/bin/conda shell.zsh hook)"
 # direnv hook
 eval "$(direnv hook zsh)"
 
+# ssh-agent hook
+eval "$(ssh-agent)"
+
 # zsh-autosuggestions hook
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
