@@ -4,6 +4,9 @@ PATH=~/bin:$PATH
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+bindkey "^l" forward-word
+bindkey -e  # emac type keybind
+
 # no beep sound
 setopt no_beep
 
